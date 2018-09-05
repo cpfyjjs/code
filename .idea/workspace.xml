@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/019day/复习.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十一章线程/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十一章线程/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十一章线程/python_gil.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十一章线程/python_gil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十一章线程/python_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十一章线程/python_thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十章sock/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十章sock/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十章sock/sock_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十章sock/sock_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_http.py" beforeDir="false" afterPath="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_http.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_learning/015day/1.内置函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/015day/1.内置函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +14,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.内置函数 Coverage Results" MODIFIED="1536069743003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/015day" />
+    <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.正则表达式 Coverage Results" MODIFIED="1536129310616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$sock_server.coverage" NAME="sock_server Coverage Results" MODIFIED="1536050897996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$socket_http.coverage" NAME="socket_http Coverage Results" MODIFIED="1536052830431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$python_gil.coverage" NAME="python_gil Coverage Results" MODIFIED="1536054266011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十一章线程" />
     <SUITE FILE_PATH="coverage/code$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1536050902940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
+    <SUITE FILE_PATH="coverage/code$2_.coverage" NAME="2.爬虫例子 Coverage Results" MODIFIED="1536131360784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
+    <SUITE FILE_PATH="coverage/code$re.coverage" NAME="re Coverage Results" MODIFIED="1536134760737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1911544594">
@@ -42,7 +38,8 @@
           <entry key="file" value="2" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="22" />
+          <entry key="py" value="27" />
+          <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,19 +47,21 @@
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="27" />
+          <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="file" value="1" />
-          <entry key="py" value="2826" />
+          <entry key="py" value="4281" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2826" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="4281" />
         </counts>
       </usages-collector>
     </session>
@@ -70,10 +69,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_learning/018day/1.正则表达式.py">
+        <entry file="file://$PROJECT_DIR$/python_learning/019day/复习.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="1480">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -96,7 +95,6 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ja.py" />
         <option value="$PROJECT_DIR$/python_learning/015day/file" />
-        <option value="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" />
         <option value="$PROJECT_DIR$/python_learning/015day/1.内置函数.py" />
         <option value="$PROJECT_DIR$/HightLevelPython/第十章sock/sock_server.py" />
         <option value="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_client.py" />
@@ -105,6 +103,10 @@
         <option value="$PROJECT_DIR$/HightLevelPython/第十一章线程/python_thread.py" />
         <option value="$PROJECT_DIR$/HightLevelPython/第十一章线程/__init__.py" />
         <option value="$PROJECT_DIR$/HightLevelPython/第十章sock/__init__.py" />
+        <option value="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" />
+        <option value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
+        <option value="$PROJECT_DIR$/python_learning/019day/re.py" />
+        <option value="$PROJECT_DIR$/python_learning/019day/复习.py" />
       </list>
     </option>
   </component>
@@ -143,36 +145,13 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="HightLevelPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="HightLevelPython" type="462c0819:PsiDirectoryNode" />
-              <item name="第十一章线程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="HightLevelPython" type="462c0819:PsiDirectoryNode" />
-              <item name="第十章sock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="015day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="018day" type="462c0819:PsiDirectoryNode" />
+              <item name="019day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -208,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.内置函数">
+  <component name="RunManager" selected="Python.re">
     <configuration name="1.内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +202,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/015day/1.内置函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1.正则表达式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/018day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.爬虫例子" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/018day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sock_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="re" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,56 +284,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HightLevelPython/第十章sock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/019day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HightLevelPython/第十章sock/sock_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="socket_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HightLevelPython/第十章sock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="socket_http" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HightLevelPython/第十章sock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HightLevelPython/第十章sock/socket_http.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/019day/re.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,19 +299,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.socket_client" />
-      <item itemvalue="Python.sock_server" />
-      <item itemvalue="Python.socket_http" />
       <item itemvalue="Python.python_gil" />
       <item itemvalue="Python.1.内置函数" />
+      <item itemvalue="Python.1.正则表达式" />
+      <item itemvalue="Python.2.爬虫例子" />
+      <item itemvalue="Python.re" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.re" />
+        <item itemvalue="Python.2.爬虫例子" />
+        <item itemvalue="Python.1.正则表达式" />
         <item itemvalue="Python.1.内置函数" />
         <item itemvalue="Python.python_gil" />
-        <item itemvalue="Python.socket_http" />
-        <item itemvalue="Python.socket_client" />
-        <item itemvalue="Python.sock_server" />
       </list>
     </recent_temporary>
   </component>
@@ -347,6 +326,14 @@
       <option name="presentableId" value="Default" />
       <updated>1535698163383</updated>
     </task>
+    <task id="LOCAL-00001" summary="0904">
+      <created>1536118390897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536118390897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -360,14 +347,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1080" height="1920" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2156673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" weight="0.21105528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21105528" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,6 +400,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0904" />
+    <option name="LAST_COMMIT_MESSAGE" value="0904" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/ja.py" />
@@ -427,16 +417,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/015day/file">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/015day/1.内置函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <marker date="1536113384073" expanded="true" signature="271:292" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HightLevelPython/第十章sock/socket_client.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -510,10 +490,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/015day/1.内置函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <marker date="1536113384073" expanded="true" signature="271:292" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/1.正则表达式.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/019day/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/019day/复习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
