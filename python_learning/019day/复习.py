@@ -61,14 +61,28 @@ ret = re.search('\d+(?P<name>[a-z]+)','asdfa23edfas23fdasdf')
 print(ret.group('name'))
 # edfas
 
+import re
 
+ret = re.search('<(?P<tag>\w+?)>(?P<txt>.*?)</(?P=tag)>','<h1>hello</h1>')
+print(ret)
+print(ret.group())
+print(ret.group('tag'))
+print(ret.group('txt'))
+# <h1>hello</h1>
+# h1
+# hello
 
+ret = re.search('<(?P<tag>\w+?)>(?P<txt>.*?)</(?P=tag)>','<h1>hello</h2>')
+print(ret)
+# None
 
-
-
-
-
-
+ret = re.search(r'<(\w+)>\w+</\1>','<h1>hello</h1>')
+print(ret)
+print(ret.group())
+print(ret.group(1))
+# <_sre.SRE_Match object; span=(0, 14), match='<h1>hello</h1>'>
+# <h1>hello</h1>
+# h1
 
 
 

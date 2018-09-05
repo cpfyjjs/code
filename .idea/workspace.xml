@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_learning/019day/复习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/018day/3.计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/019day/1.collections.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learning/019day/复习.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/019day/复习.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +16,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.正则表达式 Coverage Results" MODIFIED="1536129310616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
+    <SUITE FILE_PATH="coverage/code$3_.coverage" NAME="3.计算器 Coverage Results" MODIFIED="1536145699899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$sock_server.coverage" NAME="sock_server Coverage Results" MODIFIED="1536050897996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$socket_http.coverage" NAME="socket_http Coverage Results" MODIFIED="1536052830431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$python_gil.coverage" NAME="python_gil Coverage Results" MODIFIED="1536054266011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十一章线程" />
     <SUITE FILE_PATH="coverage/code$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1536050902940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME="复习 Coverage Results" MODIFIED="1536136340130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$2_.coverage" NAME="2.爬虫例子 Coverage Results" MODIFIED="1536131360784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$re.coverage" NAME="re Coverage Results" MODIFIED="1536134760737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
   </component>
@@ -38,7 +41,7 @@
           <entry key="file" value="2" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="27" />
+          <entry key="py" value="38" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
@@ -47,32 +50,54 @@
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="38" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="3" />
           <entry key="file" value="1" />
-          <entry key="py" value="4281" />
+          <entry key="py" value="6237" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="4281" />
+          <entry key="Python" value="6240" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_learning/019day/复习.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1480">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="1740">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning/019day/1.collections.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2020">
+              <caret line="101" column="18" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="18" />
+              <folding>
+                <marker date="1536145699885" expanded="true" signature="2050:2589" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,9 +129,11 @@
         <option value="$PROJECT_DIR$/HightLevelPython/第十一章线程/__init__.py" />
         <option value="$PROJECT_DIR$/HightLevelPython/第十章sock/__init__.py" />
         <option value="$PROJECT_DIR$/python_learning/018day/1.正则表达式.py" />
-        <option value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
         <option value="$PROJECT_DIR$/python_learning/019day/re.py" />
         <option value="$PROJECT_DIR$/python_learning/019day/复习.py" />
+        <option value="$PROJECT_DIR$/python_learning/019day/1.collections.py" />
+        <option value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
+        <option value="$PROJECT_DIR$/python_learning/018day/3.计算器.py" />
       </list>
     </option>
   </component>
@@ -117,10 +144,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1130" />
-    <option name="y" value="411" />
-    <option name="width" value="1717" />
-    <option name="height" value="941" />
+    <option name="x" value="2040" />
+    <option name="y" value="373" />
+    <option name="width" value="810" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -146,6 +173,12 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="018day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -187,8 +220,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.re">
-    <configuration name="1.内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.3.计算器">
+    <configuration name="复习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,12 +229,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/015day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/019day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/015day/1.内置函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/019day/复习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_gil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3.计算器" type="PythonConfigurationType" factoryName="Python">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,12 +295,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HightLevelPython/第十一章线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/018day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HightLevelPython/第十一章线程/python_gil.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/018day/3.计算器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,19 +332,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.python_gil" />
-      <item itemvalue="Python.1.内置函数" />
+      <item itemvalue="Python.3.计算器" />
       <item itemvalue="Python.1.正则表达式" />
       <item itemvalue="Python.2.爬虫例子" />
       <item itemvalue="Python.re" />
+      <item itemvalue="Python.复习" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.复习" />
         <item itemvalue="Python.re" />
         <item itemvalue="Python.2.爬虫例子" />
         <item itemvalue="Python.1.正则表达式" />
-        <item itemvalue="Python.1.内置函数" />
-        <item itemvalue="Python.python_gil" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536118390897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0904">
+      <created>1536135203260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536135203260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -348,12 +387,12 @@
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1080" height="1920" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2156673" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49964616" visible="true" weight="0.2156673" />
+      <window_info id="Structure" order="1" sideWeight="0.5003539" side_tool="true" visible="true" weight="0.2156673" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21105528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21105528" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,36 +402,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18181819" side_tool="true" weight="0.21105528" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" weight="0.32998326" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49903288" weight="0.32998326" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49903288" weight="0.1228364" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2156673" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" weight="0.21105528" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49709865" weight="0.17197096" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.16024567" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18181819" side_tool="true" weight="0.21105528" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" weight="0.32998326" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -514,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/019day/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -530,8 +539,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/019day/复习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="1740">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/019day/1.collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1267196414/_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="207" column="8" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2020">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="18" />
+          <folding>
+            <marker date="1536145699885" expanded="true" signature="2050:2589" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
