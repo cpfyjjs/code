@@ -10,13 +10,6 @@
 '(1)-2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))'
 # 1-2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))
 
-import re
-
-cont = '(1)-2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))'
-
-re_parentheses = re.compile(r'\(([^\(]*?)\)')
-re_digit = re.compile('(\d+)')
-
 
 """
 构建一个双端队列用于存放数字
@@ -36,20 +29,33 @@ while not 数字队列不为空
     放回
 """
 
+"""
+输入一串字符串，根据数学运算规则进行数学运算，最后输出运算结果
+这个版本有点小问题
+"""
 
+import re
 from collections import  deque
-import numbers
-from numbers import Integral
+
+
+cont = '(1)-2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))'
 
 
 def cal_mul_div(cont_list):
-
+    """
+    根据数学运算规则，有限运算乘除法
+    :param cont_list: cont_list
+        for example :['9', '-', '2', '*', '3', '+', '7', '/', '8', '*', '99', '/', '4', '*', '2998', '+', '10', '*', '568', '/', '14', '']
+    :return: digit_deque,symbol_deque
+    """
     digit_deque = deque()
     symbol_deque = deque()
     digit_deque.append(0)
     symbol_deque.append('')
+    # 便利列表中的字符
     for chars in cont_list:
         last_symbol = symbol_deque[-1]
+        # 判断是否有双字符
         if chars in {'+-','--','*-','/-'}:
             if chars == '+-':
                 symbol_deque.append('-')
@@ -57,6 +63,7 @@ def cal_mul_div(cont_list):
                 symbol_deque.append('+')
             elif chars == '*-' or chars == '/-':
                 last_symbol = symbol_deque.pop()
+                # 更改前一个字符的
                 if last_symbol == '+' and last_symbol == '':
                     symbol_deque.append('-')
                     symbol_deque.append(chars[0])
@@ -66,6 +73,7 @@ def cal_mul_div(cont_list):
                     symbol_deque.append(chars[0])
                     last_symbol = chars[0]
 
+        #运算乘除法
         elif last_symbol  in {'*','/'}:
             symbol_deque.pop()
             if last_symbol == '*':
@@ -117,9 +125,11 @@ def merge(cont):
     ret = re_parentheses.findall(cont)
     if ret :
         L = []
+
         for cont_list in ret:
             cont_list = re_digit.split(cont_list)
             cont_list.remove('')
+            print(cont_list)
             digit_deque, symbol_deque = cal_mul_div(cont_list)
             num = cal_add_sub(digit_deque, symbol_deque)
             L.append(str(num))
@@ -137,8 +147,18 @@ def merge(cont):
 #cont = '60-30+-8.0*65334.15178571428'
 #-522643.21428571426
 
+"""
+if __name__ == '__main__':
+    while not issubclass(type(cont),float):
+        cont = merge(cont)
+        print(cont)
+"""
 
-while not issubclass(type(cont),float):
-    cont = merge(cont)
-    print(cont)
-
+cont = merge(cont)
+print(cont)
+cont = merge(cont)
+print(cont)
+cont = merge(cont)
+print(cont)
+cont = merge(cont)
+print(cont)
