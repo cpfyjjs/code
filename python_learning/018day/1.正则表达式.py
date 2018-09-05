@@ -2,8 +2,8 @@
 # encoding: utf-8
 '''
 @software: pycharm
-@file: __init__.py.py
-@time: 18-9-4 下午5:29
+@file: 1.正则表达式.py
+@time: 18-9-5 上午9:59
 @desc:
 '''
 

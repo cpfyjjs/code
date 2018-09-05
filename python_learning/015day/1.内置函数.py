@@ -1,9 +1,6 @@
 #!/home/cpf/anaconda3/bin
 # encoding: utf-8
 '''
-@author: cpf
-@license: (C) Copyright 2013-2017, Node Supply Chain Manager Corporation Limited.
-@contact: 756206487@qq.com
 @software: pycharm
 @file: 1.内置函数.py
 @time: 18-9-4 下午7:40
@@ -75,3 +72,21 @@ print(a.imag)
 print(a.real)
 
 print(divmod(23,5))     #(4,3)
+
+print('你好'.encode('utf8'))
+print(b'ser34')
+
+b_array = bytearray('你好','utf8')
+print(b_array)
+print(b_array[0])
+
+
+memoryview()
+
+
+
+
+
+
+
+
