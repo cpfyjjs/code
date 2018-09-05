@@ -7,9 +7,8 @@
 @desc:
 '''
 
-'(1)-2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))'
-# 1-2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))
-
+import re
+from collections import  deque
 
 """
 构建一个双端队列用于存放数字
@@ -33,10 +32,6 @@ while not 数字队列不为空
 输入一串字符串，根据数学运算规则进行数学运算，最后输出运算结果
 """
 
-import re
-from collections import  deque
-
-
 cont = '(1)/2*((60-30+(-40/5)*(9-2*3+7/8*99/4*2998+10*568/14))-(-4*3)/(16-3*2))'
 
 
@@ -55,14 +50,14 @@ def cal_mul_div(cont_list):
     for chars in cont_list:
         last_symbol = symbol_deque[-1]
         # 判断是否有双字符
-        if last_symbol in {'+-','--','*-','/-'}:
+        if last_symbol in {'+-', '--', '*-', '/-'}:
             chars = '-' + chars
             symbol_deque.pop()
             last_symbol = last_symbol[0]
             symbol_deque.append(last_symbol)
 
-        #运算乘除法
-        if last_symbol  in {'*','/'}:
+        # 运算乘除法
+        if last_symbol in {'*', '/'}:
             symbol_deque.pop()
             if last_symbol == '*':
                 left_num = float(digit_deque.pop())
@@ -75,7 +70,7 @@ def cal_mul_div(cont_list):
                 num = left_num / right_num
                 digit_deque.append(num)
         else:
-            if chars not in {'+' , '-' , '*' , '/' , '+-' , '--', '*-' , '/-'}:
+            if chars not in {'+', '-', '*', '/', '+-', '--', '*-', '/-'}:
                 digit_deque.append(chars)
             else:
                 symbol_deque.append(chars)
@@ -83,12 +78,12 @@ def cal_mul_div(cont_list):
     symbol_deque.popleft()
     digit_deque.popleft()
     # 返回数字队列，返回运算符号队列
-    return digit_deque,symbol_deque
+    return digit_deque, symbol_deque
 
 
-def cal_add_sub(digit_deque,symbol_deque):
-    #计算加减法
-    #判对长度是否匹配
+def cal_add_sub(digit_deque, symbol_deque):
+    # 计算加减法
+    # 判对长度是否匹配
     if len(digit_deque) == len(symbol_deque):
         digit_deque.appendleft(0)
     num = digit_deque.popleft()
@@ -98,16 +93,13 @@ def cal_add_sub(digit_deque,symbol_deque):
         if last_symbol == '+':
             left_num = float(num)
             right_num = float(digit_deque.popleft())
-            num =  left_num + right_num
+            num = left_num + right_num
         elif last_symbol == '-':
             left_num = float(num)
             right_num = float(digit_deque.popleft())
             num = left_num - right_num
     return num
 
-
-
-#65334.15178571428
 
 def merge(cont):
     """
@@ -116,6 +108,7 @@ def merge(cont):
     :return:
     """
     # 匹配最内部的括号内的内容
+
     re_parentheses = re.compile(r'\(([^\(]*?)\)')
     # 匹配所有的正整数及正小数
     re_digit = re.compile('(\d+\.\d+|\d+)')
@@ -139,37 +132,10 @@ def merge(cont):
         num = cal_add_sub(digit_deque, symbol_deque)
         return num
 
-#cont = '60-30+-8.0*65334.15178571428'
-#-522643.21428571426
-
-"""
-cont = merge(cont)
-print(cont)
-cont = merge(cont)
-print(cont)
-cont = merge(cont)
-print(cont)
-cont = merge(cont)
-print(cont)
-"""
-#cont = '60-30+-8.0*65334.15178571428'
-#[60,30,-8,65334.15178571428]
-#[-,+,*]
-
+# cont = '60-30+-8.0*65334.15178571428'
+# -522643.21428571426
 
 if __name__ == '__main__':
-    while not issubclass(type(cont),float):
+    while not issubclass(type(cont), float):
         cont = merge(cont)
         print(cont)
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="0905">
-      <change afterPath="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" afterDir="false" />
+    <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_learning/018day/3.计算器.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/018day/3.计算器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_learning/019day/1.collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/019day/1.collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +12,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/code$3_1.coverage" NAME="3.计算器1 Coverage Results" MODIFIED="1536153684603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
+    <SUITE FILE_PATH="coverage/code$3_1.coverage" NAME="3.计算器1 Coverage Results" MODIFIED="1536163069856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.正则表达式 Coverage Results" MODIFIED="1536129310616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
-    <SUITE FILE_PATH="coverage/code$3_.coverage" NAME="3.计算器 Coverage Results" MODIFIED="1536158229427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
+    <SUITE FILE_PATH="coverage/code$3_.coverage" NAME="3.计算器 Coverage Results" MODIFIED="1536163062980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$sock_server.coverage" NAME="sock_server Coverage Results" MODIFIED="1536050897996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$socket_http.coverage" NAME="socket_http Coverage Results" MODIFIED="1536052830431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$python_gil.coverage" NAME="python_gil Coverage Results" MODIFIED="1536054266011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十一章线程" />
@@ -58,72 +56,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="3" />
+          <entry key="Python Console" value="13" />
           <entry key="file" value="1" />
-          <entry key="py" value="7417" />
+          <entry key="py" value="7929" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="7420" />
+          <entry key="Python" value="7942" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_learning/019day/复习.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_learning/019day/1.collections.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_learning/018day/1.正则表达式.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="926">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#520#529#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,9 +114,9 @@
         <option value="$PROJECT_DIR$/python_learning/019day/re.py" />
         <option value="$PROJECT_DIR$/python_learning/019day/复习.py" />
         <option value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
-        <option value="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" />
         <option value="$PROJECT_DIR$/python_learning/019day/1.collections.py" />
         <option value="$PROJECT_DIR$/python_learning/018day/3.计算器.py" />
+        <option value="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" />
       </list>
     </option>
   </component>
@@ -255,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.计算器">
+  <component name="RunManager" selected="Python.3.计算器1">
     <configuration name="复习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -398,8 +354,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1.collections" />
         <item itemvalue="Python.3.计算器1" />
+        <item itemvalue="Python.1.collections" />
         <item itemvalue="Python.复习" />
         <item itemvalue="Python.re" />
         <item itemvalue="Python.2.爬虫例子" />
@@ -438,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536148947835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0905">
+      <created>1536158262125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536158262125</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0905">
+      <created>1536163145606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536163145606</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -452,13 +422,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1080" height="1920" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.21953578" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" weight="0.21953578" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.21953578" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21105528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" weight="0.21105528" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,12 +438,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.16024567" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18181819" side_tool="true" weight="0.21105528" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" weight="0.32998326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" visible="true" weight="0.106085986" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49903288" weight="0.1228364" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32978722" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -632,6 +603,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#488#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -641,22 +622,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/1.正则表达式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
+        <state relative-caret-position="1321">
           <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+        <state relative-caret-position="926">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#520#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
