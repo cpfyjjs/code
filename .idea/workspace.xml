@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_learning/019day/1.collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_learning/019day/1.collections.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/code$3_1.coverage" NAME="3.计算器1 Coverage Results" MODIFIED="1536163069856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
+    <SUITE FILE_PATH="coverage/code$3_1.coverage" NAME="3.计算器1 Coverage Results" MODIFIED="1536163921495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
+    <SUITE FILE_PATH="coverage/code$2_time.coverage" NAME="2.time Coverage Results" MODIFIED="1536201459294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.正则表达式 Coverage Results" MODIFIED="1536129310616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$3_.coverage" NAME="3.计算器 Coverage Results" MODIFIED="1536163062980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$sock_server.coverage" NAME="sock_server Coverage Results" MODIFIED="1536050897996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$socket_http.coverage" NAME="socket_http Coverage Results" MODIFIED="1536052830431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$python_gil.coverage" NAME="python_gil Coverage Results" MODIFIED="1536054266011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十一章线程" />
-    <SUITE FILE_PATH="coverage/code$1_collections.coverage" NAME="1.collections Coverage Results" MODIFIED="1536153752305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
+    <SUITE FILE_PATH="coverage/code$1_collections.coverage" NAME="1.collections Coverage Results" MODIFIED="1536200674822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1536050902940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$.coverage" NAME="复习 Coverage Results" MODIFIED="1536136340130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$2_.coverage" NAME="2.爬虫例子 Coverage Results" MODIFIED="1536131360784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
@@ -28,12 +29,12 @@
     <session id="1911544594">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,8 +42,8 @@
           <entry key="file" value="2" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="42" />
-          <entry key="pyi" value="1" />
+          <entry key="py" value="44" />
+          <entry key="pyi" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,36 +51,42 @@
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="42" />
-          <entry key="PythonStub" value="1" />
+          <entry key="Python" value="44" />
+          <entry key="PythonStub" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="13" />
           <entry key="file" value="1" />
-          <entry key="py" value="7929" />
+          <entry key="py" value="8938" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="7942" />
+          <entry key="Python" value="8951" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="926">
+            <state relative-caret-position="380">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="e#520#529#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_learning/019day/1.collections.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1321">
+              <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -114,9 +121,9 @@
         <option value="$PROJECT_DIR$/python_learning/019day/re.py" />
         <option value="$PROJECT_DIR$/python_learning/019day/复习.py" />
         <option value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
-        <option value="$PROJECT_DIR$/python_learning/019day/1.collections.py" />
         <option value="$PROJECT_DIR$/python_learning/018day/3.计算器.py" />
         <option value="$PROJECT_DIR$/python_learning/018day/3.计算器1.py" />
+        <option value="$PROJECT_DIR$/python_learning/019day/1.collections.py" />
       </list>
     </option>
   </component>
@@ -140,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,7 +190,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.计算器1">
+  <component name="RunManager" selected="Python.2.time">
     <configuration name="复习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.爬虫例子" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2.time" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +271,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/018day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/019day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/019day/2.time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,19 +353,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.3.计算器" />
-      <item itemvalue="Python.2.爬虫例子" />
       <item itemvalue="Python.re" />
       <item itemvalue="Python.复习" />
       <item itemvalue="Python.3.计算器1" />
       <item itemvalue="Python.1.collections" />
+      <item itemvalue="Python.2.time" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3.计算器1" />
+        <item itemvalue="Python.2.time" />
         <item itemvalue="Python.1.collections" />
+        <item itemvalue="Python.3.计算器1" />
         <item itemvalue="Python.复习" />
         <item itemvalue="Python.re" />
-        <item itemvalue="Python.2.爬虫例子" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536163145606</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0905">
+      <created>1536163898261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536163898261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -424,12 +438,12 @@
     <frame x="1920" y="0" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" weight="0.21953578" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.21953578" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.21953578" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" weight="0.21105528" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21105528" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.16024567" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18181819" side_tool="true" weight="0.21105528" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" visible="true" weight="0.106085986" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" weight="0.106085986" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49903288" weight="0.1228364" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -596,20 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/019day/1.collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#488#497#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,11 +633,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
+        <state relative-caret-position="380">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#520#529#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="356" column="4" selection-start-line="356" selection-start-column="4" selection-end-line="356" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/019day/1.collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1321">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
         </state>
       </provider>
     </entry>
