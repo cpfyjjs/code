@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_learning/21day/2.异常处理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_learning/22day/Vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_learning/26day/5.反射.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/29day/1.logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/29day/2.logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/29day/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/30day/1.网络编程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/project/log/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +24,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/code$2_time.coverage" NAME="2.time Coverage Results" MODIFIED="1536204018944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1536226715969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/20day" />
+    <SUITE FILE_PATH="coverage/code$1_logging.coverage" NAME="1.logging Coverage Results" MODIFIED="1536310711652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/29day" />
     <SUITE FILE_PATH="coverage/code$sock_server.coverage" NAME="sock_server Coverage Results" MODIFIED="1536050897996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$socket_http.coverage" NAME="socket_http Coverage Results" MODIFIED="1536052830431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$python_gil.coverage" NAME="python_gil Coverage Results" MODIFIED="1536054266011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十一章线程" />
@@ -23,7 +32,8 @@
     <SUITE FILE_PATH="coverage/code$Vector.coverage" NAME="Vector Coverage Results" MODIFIED="1536306640922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/22day" />
     <SUITE FILE_PATH="coverage/code$5_.coverage" NAME="5.反射 Coverage Results" MODIFIED="1536304843142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/26day" />
     <SUITE FILE_PATH="coverage/code$3_1.coverage" NAME="3.计算器1 Coverage Results" MODIFIED="1536163921495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
-    <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.包 Coverage Results" MODIFIED="1536291995666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/21day" />
+    <SUITE FILE_PATH="coverage/code$2_logging.coverage" NAME="2.logging Coverage Results" MODIFIED="1536312593991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/29day" />
+    <SUITE FILE_PATH="coverage/code$1_.coverage" NAME="1.网络编程 Coverage Results" MODIFIED="1536317006851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/30day" />
     <SUITE FILE_PATH="coverage/code$3_.coverage" NAME="3.计算器 Coverage Results" MODIFIED="1536291504454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$1_collections.coverage" NAME="1.collections Coverage Results" MODIFIED="1536215352373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1536050902940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
@@ -36,32 +46,34 @@
     <session id="1911544594">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="file" value="2" />
-          <entry key="ini" value="1" />
+          <entry key="ini" value="2" />
           <entry key="json" value="4" />
+          <entry key="log" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="67" />
+          <entry key="py" value="74" />
           <entry key="pyi" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ini" value="1" />
+          <entry key="Ini" value="2" />
           <entry key="JSON" value="2" />
+          <entry key="Log" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="67" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="74" />
           <entry key="PythonStub" value="3" />
         </counts>
       </usages-collector>
@@ -69,14 +81,15 @@
         <counts>
           <entry key="Python Console" value="13" />
           <entry key="file" value="1" />
-          <entry key="py" value="13932" />
+          <entry key="log" value="1" />
+          <entry key="py" value="14804" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="13945" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="14817" />
         </counts>
       </usages-collector>
     </session>
@@ -84,7 +97,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_learning/21day/2.异常处理.py">
+        <entry file="file://$PROJECT_DIR$/python_learning/29day/1.logging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_learning/29day/test.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning/29day/2.logging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning/30day/1.网络编程.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -104,19 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_learning/22day/Vector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-              <folding>
-                <element signature="e#117#140#0" expanded="true" />
-                <marker date="1536308107800" expanded="true" signature="247:252" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_learning/21day/1.包.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,6 +151,11 @@
               <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning/21day/config.ini">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -176,6 +208,10 @@
         <option value="$PROJECT_DIR$/python_learning/21day/2.异常处理.py" />
         <option value="$PROJECT_DIR$/python_learning/26day/5.反射.py" />
         <option value="$PROJECT_DIR$/python_learning/22day/Vector.py" />
+        <option value="$PROJECT_DIR$/python_learning/29day/1.logging.py" />
+        <option value="$PROJECT_DIR$/python_learning/29day/test.log" />
+        <option value="$PROJECT_DIR$/python_learning/29day/2.logging.py" />
+        <option value="$PROJECT_DIR$/python_learning/30day/1.网络编程.py" />
       </list>
     </option>
   </component>
@@ -186,9 +222,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="539" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="x" value="1920" />
+    <option name="width" value="790" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -210,24 +246,6 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="21day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="22day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="python_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="26day" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -272,8 +290,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Vector">
-    <configuration name="1.序列化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1.网络编程">
+    <configuration name="1.网络编程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,12 +299,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/20day" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/30day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/20day/1.序列化.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/30day/1.网络编程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,6 +327,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/21day/1.包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1.logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/29day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/29day/1.logging.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/29day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/29day/2.logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,28 +423,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.os" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/019day" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/019day/4.os.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="5.反射" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -427,43 +467,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/20day" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/20day/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.3.计算器" />
-      <item itemvalue="Python.4.os" />
-      <item itemvalue="Python.1.序列化" />
-      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.5.反射" />
       <item itemvalue="Python.Vector" />
+      <item itemvalue="Python.1.logging" />
+      <item itemvalue="Python.2.logging" />
+      <item itemvalue="Python.1.网络编程" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.网络编程" />
+        <item itemvalue="Python.2.logging" />
+        <item itemvalue="Python.1.logging" />
         <item itemvalue="Python.Vector" />
         <item itemvalue="Python.5.反射" />
-        <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.1.序列化" />
-        <item itemvalue="Python.4.os" />
       </list>
     </recent_temporary>
   </component>
@@ -569,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536295533746</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="0907">
+      <created>1536308116027</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536308116027</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -582,20 +607,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="539" width="1920" height="1053" extended-state="6" />
+    <frame x="1920" y="0" width="1080" height="1920" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.13180363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.24371374" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.21953578" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21103896" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21049693" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49709865" weight="0.17197096" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.16024567" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.0826354" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18181819" side_tool="true" weight="0.21105528" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" weight="0.4599567" />
@@ -607,18 +632,18 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.22437137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916247" visible="true" weight="0.23887815" />
       <window_info id="Structure" order="1" sideWeight="0.5008375" side_tool="true" weight="0.21953578" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49903288" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.10887772" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8181818" visible="true" weight="0.21049693" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7446808" weight="0.34896705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49709865" weight="0.17197096" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.16024567" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903288" weight="0.0826354" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.18181819" side_tool="true" weight="0.21105528" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49806577" weight="0.4599567" />
@@ -644,8 +669,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="0907" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/ja.py" />
     <entry file="file://$PROJECT_DIR$/HightLevelPython/__init__.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1267196414/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -741,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/018day/2.爬虫例子.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -787,13 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="821">
           <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -887,9 +896,6 @@
     <entry file="file://$PROJECT_DIR$/python_learning/21day/glance/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/21day/config.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/21day/2.异常处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -897,10 +903,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/21day/1.包.py">
+    <entry file="file://$PROJECT_DIR$/python_learning/22day/Vector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="1337">
+          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/018day/3.计算器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/29day/1.logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/29day/2.logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/30day/1.网络编程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -914,14 +955,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_learning/22day/Vector.py">
+    <entry file="file://$PROJECT_DIR$/python_learning/21day/1.包.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-          <folding>
-            <element signature="e#117#140#0" expanded="true" />
-            <marker date="1536308107800" expanded="true" signature="247:252" ph="..." />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/21day/config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/29day/test.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
