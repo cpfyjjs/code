@@ -6,6 +6,10 @@
 @time: 18-9-7 上午10:47
 @desc:
 '''
+"""
+__all__ 用于和　import * 配合
+"""
+
 
 #import glance.api.policy
 
