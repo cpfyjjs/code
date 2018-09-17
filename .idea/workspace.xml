@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe0c9b0-d93a-43d1-b346-9cdb30a5ad12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_learning/42day/多路复用IO/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_learning/42day/多路复用IO/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/42day/gevent模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/42day/协成yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_learning/42day/同步异步.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytorch_learning/03数据加载及处理教程/faces/face_landmarks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_learning/03数据加载及处理教程/faces/face_landmarks.csv" afterDir="false" />
     </list>
@@ -23,6 +24,7 @@
     <SUITE FILE_PATH="coverage/code$Vector.coverage" NAME="Vector Coverage Results" MODIFIED="1536306640922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/22day" />
     <SUITE FILE_PATH="coverage/code$server1.coverage" NAME="server1 Coverage Results" MODIFIED="1537188367274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/42day/非阻塞IO" />
     <SUITE FILE_PATH="coverage/code$5_.coverage" NAME="5.反射 Coverage Results" MODIFIED="1536304843142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/26day" />
+    <SUITE FILE_PATH="coverage/code$gevent.coverage" NAME="gevent模块 Coverage Results" MODIFIED="1537192844148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/42day" />
     <SUITE FILE_PATH="coverage/code$1_collections.coverage" NAME="1.collections Coverage Results" MODIFIED="1536215352373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
     <SUITE FILE_PATH="coverage/code$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1537189608802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/42day/多路复用IO" />
     <SUITE FILE_PATH="coverage/code$5_sys.coverage" NAME="5.sys Coverage Results" MODIFIED="1536217603928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
@@ -38,7 +40,8 @@
     <SUITE FILE_PATH="coverage/code$3_.coverage" NAME="3.计算器 Coverage Results" MODIFIED="1536291504454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/018day" />
     <SUITE FILE_PATH="coverage/code$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1536050902940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HightLevelPython/第十章sock" />
     <SUITE FILE_PATH="coverage/code$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1537188373724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/42day/非阻塞IO" />
-    <SUITE FILE_PATH="coverage/code$.coverage" NAME="复习 Coverage Results" MODIFIED="1536136340130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
+    <SUITE FILE_PATH="coverage/code$yield.coverage" NAME="协成yield Coverage Results" MODIFIED="1537192388912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/42day" />
+    <SUITE FILE_PATH="coverage/code$.coverage" NAME="同步异步 Coverage Results" MODIFIED="1537193045217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/42day" />
     <SUITE FILE_PATH="coverage/code$re.coverage" NAME="re Coverage Results" MODIFIED="1536134760737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_learning/019day" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -63,7 +66,7 @@
           <entry key="log" value="2" />
           <entry key="md" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="102" />
+          <entry key="py" value="105" />
           <entry key="pyi" value="4" />
         </counts>
       </usages-collector>
@@ -75,7 +78,7 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="102" />
+          <entry key="Python" value="105" />
           <entry key="PythonStub" value="4" />
         </counts>
       </usages-collector>
@@ -84,28 +87,60 @@
           <entry key="Python Console" value="13" />
           <entry key="file" value="1" />
           <entry key="log" value="1" />
-          <entry key="py" value="16950" />
+          <entry key="py" value="17504" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="16963" />
+          <entry key="Python" value="17517" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_learning/42day/多路复用IO/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="680">
+              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
                 <element signature="e#118#131#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning/42day/协成yield.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <folding>
+                <marker date="1537192388903" expanded="true" signature="149:154" ph="..." />
+                <marker date="1537192388903" expanded="true" signature="239:244" ph="..." />
+                <marker date="1537192388903" expanded="true" signature="447:452" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_learning/42day/gevent模块.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_learning/42day/同步异步.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -134,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ja.py" />
         <option value="$PROJECT_DIR$/python_learning/015day/file" />
         <option value="$PROJECT_DIR$/python_learning/015day/1.内置函数.py" />
@@ -183,6 +217,9 @@
         <option value="$PROJECT_DIR$/python_learning/42day/多路复用IO/clinet.py" />
         <option value="$PROJECT_DIR$/python_learning/42day/多路复用IO/client.py" />
         <option value="$PROJECT_DIR$/python_learning/42day/多路复用IO/server.py" />
+        <option value="$PROJECT_DIR$/python_learning/42day/协成yield.py" />
+        <option value="$PROJECT_DIR$/python_learning/42day/gevent模块.py" />
+        <option value="$PROJECT_DIR$/python_learning/42day/同步异步.py" />
       </list>
     </option>
   </component>
@@ -299,7 +336,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client (2)">
+  <component name="RunManager" selected="Python.同步异步">
+    <configuration name="同步异步" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/42day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/42day/同步异步.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1.包" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -366,28 +425,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/42day/非阻塞IO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/42day/非阻塞IO/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -410,7 +447,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gevent模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,12 +455,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/42day/非阻塞IO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/42day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/42day/非阻塞IO/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/42day/gevent模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -454,7 +491,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="协成yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,12 +499,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/42day/非阻塞IO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_learning/42day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/42day/非阻塞IO/server1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_learning/42day/协成yield.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -478,19 +515,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.3.计算器" />
-      <item itemvalue="Python.client (1)" />
-      <item itemvalue="Python.server (1)" />
-      <item itemvalue="Python.server1" />
       <item itemvalue="Python.server (2)" />
       <item itemvalue="Python.client (2)" />
+      <item itemvalue="Python.协成yield" />
+      <item itemvalue="Python.gevent模块" />
+      <item itemvalue="Python.同步异步" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.同步异步" />
+        <item itemvalue="Python.gevent模块" />
+        <item itemvalue="Python.协成yield" />
         <item itemvalue="Python.client (2)" />
         <item itemvalue="Python.server (2)" />
-        <item itemvalue="Python.client (1)" />
-        <item itemvalue="Python.server1" />
-        <item itemvalue="Python.server (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537188018036</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="0917">
+      <created>1537189645920</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537189645920</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -702,27 +746,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="0917" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_learning/018day/1.正则表达式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1321">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="356" column="4" selection-start-line="356" selection-start-column="4" selection-end-line="356" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2120">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -1019,11 +1042,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_learning/42day/多路复用IO/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="680">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="e#118#131#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/42day/协成yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <marker date="1537192388903" expanded="true" signature="149:154" ph="..." />
+            <marker date="1537192388903" expanded="true" signature="239:244" ph="..." />
+            <marker date="1537192388903" expanded="true" signature="447:452" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/42day/gevent模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_learning/42day/同步异步.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
